@@ -1,0 +1,170 @@
+@import url("https://use.typekit.net/ljr7bls.css");
+
+html, body {
+    height: auto;
+    margin:0;
+    padding:0;
+    background-color: #e1F1d1;
+}
+
+#section {
+    width:100%; /*full width*/
+    min-height:90%;
+    text-align:center;
+    display:table; /*acts like a table*/
+    margin-top: 30vh;
+}
+
+#section h1 {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vw;
+    margin:0;
+    padding:0;
+    vertical-align:middle; /*middle centred*/
+    color: #6e7d54;
+}
+
+#section h2 {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    margin-top: -10px;
+    padding:0;
+    vertical-align:middle; /*middle centred*/
+    color: #D4A56E;
+}
+
+#section h3 {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+    margin-top: -10px;
+    padding:0;
+    vertical-align:middle; /*middle centred*/
+    color: #D4A56E;
+}
+
+
+#section button {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: 2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#section button:hover {
+    background-color: #D4A56E;
+}
+
+#credits {
+    position:absolute;
+    bottom: 5%;
+    left: 47%;
+    font-size: 1vw !important;
+}
+
+#form {
+    width:100%; /*full width*/
+    min-height:90%;
+    text-align:center;
+    display:table; /*acts like a table*/
+    margin-top: 15vh;
+}
+
+#form h1 {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    margin:0;
+    padding:0;
+    vertical-align:middle; /*middle centred*/
+    color: #6e7d54;
+}
+
+#form h2 {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vw;
+    margin:0;
+    padding:0;
+    vertical-align:middle; /*middle centred*/
+    color: #D4A56E;
+}
+
+#form h3 {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7vw;
+    margin:0;
+    padding:0;
+    vertical-align:middle; /*middle centred*/
+    color: #D4A56E;
+}
+
+#formspree {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:10px;
+    margin: 0 auto; 
+    padding-right: 20vw;
+    padding-top: 1vw;
+    width:250px;
+}
+
+#formspree label { 
+    font-size: 1.5vw;
+    text-align:right; 
+    color: #6e7d54; 
+}
+
+#formspree input { 
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    font-size: 1.5vw;
+    text-align:LEFT; 
+    border-radius: 1vw;
+}
+
+#formspree label:after { 
+    content: ""; 
+}
+
+#formspree button {
+    font-family: cooper-black-std, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    padding-left: .3vw;
+    padding-right: .3vw;
+    background-color: transparent;
+    border-radius: 1vw;
+    margin: 0 auto;
+    margin-right: -10vw;
+}
+
+#formspree button:hover {
+    background-color: #D4A56E;
+}
+
+a {
+  color: #6e7d54;
+  text-decoration: none;
+}
+}
