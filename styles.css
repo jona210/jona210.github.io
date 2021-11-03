@@ -167,4 +167,56 @@ a {
   color: #6e7d54;
   text-decoration: none;
 }
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+      #section h1 {
+          font-size: 12vw;
+      }
+      
+      #section h2 {
+          font-size: 3vw;
+      }
+      
+      #section button {
+          font-size: 4vw;
+      }
+      
+      #credits {
+          left: 39%;
+          font-size: 4vw !important;
+      }
+      
+      #section h3 {
+          font-size: 4vw;
+      }
+      
+      #form h1 {
+          font-size: 11vw;
+      }
+      
+      #form h2 {
+          font-size: 6VW;
+      }
+      
+      #form h3 {
+          font-size: 3vw;
+      }
+      
+      #formspree input {
+          font-size: 2vw;
+      }
+      
+      #formspree label {
+          font-size: 4vw;
+          margin-left: -70px;
+      }
+      
+      #formspree button {
+          font-size: 4vw;
+      }
 }
