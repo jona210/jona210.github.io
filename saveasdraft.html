@@ -9,13 +9,18 @@
     </head>
     <body>
         <div id="section">
-            <h1> Save As Draft </h1>
-            <h2> NOVEMBER 7 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; NOVEMBER 21 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; DECEMBER 5 </h2>
-<!--            <a href="/saveasdraftform.html"><button> PRE-REGISTER FOR NOV 7</button></a>-->
-            <a><button> Preregistration is now closed. <br>
-Doors open at 6:30PM. <br>
-Walk-ins are first come first serve.</button></a>
-            <a href="/saveasdraftcredits.html"><button id="credits"> CREDITS </button></a>
+            <form
+              action="https://formspree.io/f/mnqwverv"
+              method="POST"
+              id="formspree"
+            >
+              <label> Your name: </label>
+              <input type="text" name="_name">
+              <label> Your email: </label>
+              <input type="email" name="_replyto">
+                subscribe to our email list for future shows!
+              <button type="submit">Send</button>
+            </form>
         </div>
     </body>
 </html>
